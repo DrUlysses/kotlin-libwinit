@@ -1,0 +1,12 @@
+[versions]
+kotlin = "2.0.10"
+gobley = "0.3.7"
+
+[libraries]
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-atomicfu = { id = "org.jetbrains.kotlin.plugin.atomicfu", version.ref = "kotlin" }
+gobley-cargo = { id = "dev.gobley.cargo", version.ref = "gobley" }
+gobley-uniffi = { id = "dev.gobley.uniffi", version.ref = "gobley" }
+gobley-rust = { id = "dev.gobley.rust", version.ref = "gobley" }
